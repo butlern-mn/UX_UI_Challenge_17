@@ -5,9 +5,15 @@ body {
 }
 
 nav {
-    width: 73%;
+    width: 100%;
     padding: 1%;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarmenu {
+    display: flex;
 }
 
 button.navbarbutton {
@@ -17,7 +23,6 @@ button.navbarbutton {
     padding: 1%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     vertical-align: top;
     font-size: 12px;
     font-family: Acme;
@@ -26,31 +31,27 @@ button.navbarbutton {
     background-color: #007b84;
 }
 
-.LinkInIcon {
-    padding: 2px;
-}
-
-.heroimg {
+#heroimg {
     float: left;
-    display: block;
+    display: inline-block;
     width: 45%;
 }
 
-#PhotoAboutMe h1 {
+.PhotoAboutMe h1 {
     font-family: Acme;
     font-size: 48px;
     font-style: normal;
     color: black;
 }
 
-#PhotoAboutMe h2 {
+.PhotoAboutMe h2 {
     font-family: Arimo;
     font-size: 24px;
     font-style: normal;
     color: black;
 }
 
-#PhotoAboutMe p {
+.PhotoAboutMe p {
     font-family: Arimo;
     font-size: 20px;
     font-style: normal;
@@ -71,9 +72,9 @@ button {
     background-color: #007b84;
 }
 
-.CaseStudiesSection {
+#CaseStudiesSection {
     float: right;
-    display: block;
+    display: inline-block;
     width: 45%;
 }
 .CaseStudies {
@@ -99,22 +100,34 @@ button {
     font-style: normal;
     }
 
+.CaseStudies img {
+    width: 45%;
+}
+
 footer {
-        width: 73%;
-        padding: 1%;
-        display: inline-block;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
+.FooterLinkedText {
+    display: flex;
+}
 
 .FooterLinkedText a {
     font-family: Arimo;
     font-size: 16px;
     font-style: bold;
     color: white;
+    padding: 16px;
 }
 
-.Copyright p {
+.Copyright {
     font-family: Arimo;
     font-size: 16px;
     font-style: bold;
     color: white;
+    width: 40%;
+    text-align: center;
 }
