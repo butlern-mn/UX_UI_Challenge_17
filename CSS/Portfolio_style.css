@@ -1,0 +1,120 @@
+
+
+body {
+    background-color: #DFB647;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    display: inline-block;
+}
+
+button.navbarbutton {
+    border: solid;
+    border-color: #013863;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    font-family: Acme;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #007b84;
+}
+
+.LinkInIcon {
+    padding: 2px;
+}
+
+.heroimg {
+    float: left;
+    display: block;
+    width: 45%;
+}
+
+#PhotoAboutMe h1 {
+    font-family: Acme;
+    font-size: 48px;
+    font-style: normal;
+    color: black;
+}
+
+#PhotoAboutMe h2 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+}
+
+#PhotoAboutMe p {
+    font-family: Arimo;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Acme;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #007b84;
+}
+
+.CaseStudiesSection {
+    float: right;
+    display: block;
+    width: 45%;
+}
+.CaseStudies {
+    float: right;
+    border: solid;
+    border-color: #013863;
+    color: black;
+    padding: 2%;
+    display: inline-block;
+    margin: 5px;
+    background-color: #DFB647 80%;
+}
+
+.CaseStudies h1 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: bold;
+    }
+
+.CaseStudies p {
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    }
+
+footer {
+        width: 73%;
+        padding: 1%;
+        display: inline-block;
+    }
+
+.FooterLinkedText a {
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: bold;
+    color: white;
+}
+
+.Copyright p {
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: bold;
+    color: white;
+}
