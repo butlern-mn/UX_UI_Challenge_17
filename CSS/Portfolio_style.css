@@ -33,7 +33,9 @@ button.navbarbutton {
 
 #heroimg {
     float: left;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 45%;
 }
 
@@ -64,7 +66,6 @@ button {
     padding: 1%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 24px;
     font-family: Acme;
     margin: 2px;
@@ -83,7 +84,6 @@ button {
     border-color: #013863;
     color: black;
     padding: 2%;
-    display: inline-block;
     margin: 5px;
     background-color: #DFB647 80%;
 }
