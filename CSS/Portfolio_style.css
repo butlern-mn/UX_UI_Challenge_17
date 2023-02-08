@@ -28,7 +28,7 @@ button.navbarbutton {
     text-decoration: none;
     font-size: 12px;
     font-family: Acme;
-    margin: 10px;
+    margin: 25px;
     cursor: pointer;
     background-color: #007b84;
 }
@@ -39,6 +39,10 @@ button.navbarbutton {
     justify-content: flex-start;
     align-items: center;
     width: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: none;
 }
 
 .PhotoAboutMe {
@@ -74,7 +78,7 @@ button {
     text-decoration: none;
     font-size: 24px;
     font-family: Acme;
-    margin: 2px;
+    margin: 6px;
     height: 58px;
     width: 252px;
     cursor: pointer;
@@ -82,7 +86,10 @@ button {
 }
 
 .MyInterestIcons {
-    margin: 35px;
+    margin-top: 45px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: none;
 }
 #CaseStudiesSection {
     float: left;
@@ -90,19 +97,19 @@ button {
     justify-content: flex-start;
     align-items: center;
     width: 45%;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
-
 .CaseStudies {
-    float: right;
+    float: center;
     border: solid;
     border-color: #013863;
-    height: 236px;
-    width: 670px;
+    height: 320px;
+    width: 735px;
     color: black;
     padding: 2%;
-    margin: 5px;
-    background-color: #DFB647 80%;
+    margin-bottom: 10px;
 }
 
 .CaseStudies h1 {
@@ -119,6 +126,12 @@ button {
 
 .CaseStudies img {
     width: 45%;
+}
+
+.SkillsWords {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    float: left;
 }
 
 footer {
@@ -141,6 +154,7 @@ footer {
     font-style: bold;
     color: white;
     padding: 16px;
+    margin: 15px;
 }
 
 .Copyright {
